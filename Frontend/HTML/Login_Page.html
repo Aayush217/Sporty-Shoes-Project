@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="icon" href="../Assignments HTML/Responsive Websites/Assets/Untitled design_page-0001.jpg">
+        <title>Sporty Shoes | Log in</title>
+        <style>
+            body{
+                height: 100%;
+            }
+
+            .search-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                padding: 5px;
+                padding-left: 11px;
+                border-radius: 30px;
+            }
+
+            .search-bar i{
+                font-size: 18px;
+                color: black;
+            }
+
+            .search-bar input{
+                border: none;
+                outline: none;
+                background-color: rgba(255, 255, 255, 0.753);
+            }
+
+            .shop-button{
+                border-radius: 20px;
+            }
+
+            .shop-button-product{
+                border-radius: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .showcase-link{
+                color:#000000;
+                text-decoration: none;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            .showcase-link:hover{
+                color:#f6f6f6;
+            }
+
+            .product-magnifier{
+                transition: transform .3s;
+            }
+
+            .product-magnifier:hover{
+                -ms-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            } 
+
+            .brand-link{
+                color:#878787;
+            }
+
+            .brand-link:hover{
+                color: white;
+                transition: .2s;
+            }
+
+            .main-container{
+                width: 300px;
+                margin-bottom: 80px;
+            }
+
+            .submit{
+                margin-top: 21px;
+                width: 150px;
+                font-size: 15px; 
+                background-color: #000000;
+            }
+
+            .footer-link{
+                text-decoration: none;
+            }
+
+            @media (max-width:416px){
+                .search-bar{
+                    display: flex;
+                    padding: none;
+                    width:70%;
+                    margin-right: 17px;
+                }
+                .search-bar input{
+                    width: 50%;
+                }
+            }
+
+            @media (max-width:768px){
+                .order{
+                    font-size: small;
+                }
+            }
+
+            @media (max-width:1052px){
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid py-2 px-3 text-center order" style="background-color:white;">
+            <span class="fw-bold">GET 30% DISCOUNT!</span> ON YOUR FIRST ORDER.
+        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg navbar-dark text-light py-2 px-4" style="background-color:black;">
+            <a href="#" class="navbar-brand text-white d-flex" style="font-family: 'League Gothic', sans-serif;">
+                <img src="../Assignments HTML/Responsive Websites/Assets/Untitled_design__1__page-0001-removebg-preview.png" alt="" height="60px" style="margin-right:10px ;"><span class="mt-3 d-none d-lg-block">Sporty Shoes</span>
+            </a>
+            <div class="navbar-nav ms-auto d-none d-sm-block">
+                <div class="search-bar mx-3 mx-xl-5">
+                    <form action="">
+                        <a href=""><i class="fa fa-search"></i></a>
+                        <input type="text" placeholder="Search">
+                    </form>
+                </div>
+            </div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <div class="accordion accordion-flush d-lg-none d-lg-block" id="accordionFlushExample">
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed text-light btn-outline-dark" style="background-color:black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Kids <i class="bi bi-chevron-right mx-1"></i>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">Products for Kids</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed text-light btn-outline-dark" style="background-color:black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Women <i class="bi bi-chevron-right mx-1"></i>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">Products for Women</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed text-light btn-outline-dark" style="background-color:black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Men <i class="bi bi-chevron-right mx-1"></i>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">Products for Men</div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                          <button class="accordion-button collapsed text-light btn-outline-dark" style="background-color:black;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Sneakers <i class="bi bi-chevron-right mx-1"></i>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body text-dark">Best Sneakers</div>
+                        </div>
+                      </div>
+                </div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#kids" class="nav-link px-md-3 px-xl-4 d-none d-lg-block">Kids</a></li>
+                    <li class="nav-item"><a href="#Women" class="nav-link px-md-3 px-xl-4 d-none d-lg-block">Women</a></li>
+                    <li class="nav-item"><a href="#Men" class="nav-link px-md-3 px-xl-4 d-none d-lg-block">Men</a></li>
+                    <li class="nav-item"><a href="#Sneakers" class="nav-link px-md-3 px-xl-4 d-none d-lg-block">Sneakers</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#Wishlist" class="nav-link px-3"><i class="fa fa-heart d-none d-lg-block" style="font-size: 21px;"></i></a></li>
+                    <li class="nav-item"><a href="#Shopping-Cart" class="nav-link px-3"><i class="fa fa-cart-shopping d-none d-lg-block" style="font-size: 21px;"></i></a></li>
+                    <li class="nav-item"><a href="#Account" class="nav-link px-3"><i class="fa fa-user d-none d-lg-block" style="font-size: 21px;"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text-center main-container">
+            <img src="../Assignments HTML/Responsive Websites/Assets/Jumpman_logo.svg.png" style="margin-top: 80px;" width="60px" class="img-fluid py-3" alt="">
+            <h1 style="font-weight:800;">STAY WILD</h1>
+
+            <form action="" class="p-4 pb-3 pt-5 text-center">
+                <input type="email" class="p-2" placeholder="Email address" name="email" value name="emailAddress" autocomplete="email" autocapitalize="off" spellcheck="false" id="email" required style="width: 300px; border: 1px solid #ebebeb;"> <br>
+                <input type="password" class="p-2 mt-4" placeholder="Password" name="password" value name="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" id="password" required style="width: 300px; border: 1px solid #ebebeb;"> <br>
+                <div class="d-flex mt-4">
+                    <input type="checkbox"><label class="text-secondary px-2" style="margin-right:10px;">Remember me</label>
+                    <a href="#" id="forgot_" class="text-secondary" style="font-size: small;">Forgot Password?</a>
+                </div>
+            </form>
+            <div class="" style="width: 70%; margin: auto; font-size: small;">By logging in, you agree to Sporty Shoes's <a href="#" id="forgot_" class="text-secondary" style="font-size: small;">Privacy Policy</a> and <a href="#" id="forgot_" class="text-secondary" style="font-size: small;">Terms of Use.</a></div>
+            <button type="submit" class="p-1 text-white submit" style="width: 150px;font-size: 15px; background-color: #000000;">Sign in</button>
+        </div>
+
+        <footer class="px-5 py-3" style="background-color:black">
+            <div class="d-flex justify-content-between">
+                <div class="text-white">&copy;Sporty Shoes 2022. All rights Reserved.</div>
+                <div class="text-white">
+                    <span class="px-3">Follow Us</span>
+                    <a class="px-2 brand-link" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="brand-link" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="px-2 brand-link" href="#"><i class="bi bi-twitter"></i></a>
+                    <a class="brand-link" href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="container p-3 pt-4">
+
+                <div class="d-flex">
+                    <a href="#" class="text-light footer-link">FIND A STORE</a>
+                    <a href="#" class="px-5 text-light footer-link">GET HELP</a>
+                    <a href="#" class="px-2 text-light footer-link">ABOUT SPORTY SHOES</a>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <a href="#" class="text-light footer-link">BECOME A MEMBER</a>
+                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
+                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <a href="#" class="text-light footer-link">SIGN UP FOR EMAIL</a>
+                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
+                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <a href="#" class="text-light footer-link">STUDENT DISCOUNT</a>
+                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
+                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                </div>
+
+                <div class="d-flex mt-2">
+                    <a href="#" class="text-light footer-link">SEND US FEEDBACK</a>
+                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
+                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
