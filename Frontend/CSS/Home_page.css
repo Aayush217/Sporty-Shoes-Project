@@ -61,6 +61,25 @@
     transition: .2s;
 }
 
+.footer-link{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-small;
+}
+
+.font{
+    font-weight: 800;
+    color: #f6f6f6;
+}
+
+.other-page-links{
+    color: #878787;
+}
+
+.other-page-links:hover{
+    color: #ffffff;
+}
+
 @media (max-width:416px){
     .search-bar{
         display: flex;
