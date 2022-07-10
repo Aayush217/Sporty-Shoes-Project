@@ -58,16 +58,6 @@
                 color:#f6f6f6;
             }
 
-            .product-magnifier{
-                transition: transform .3s;
-            }
-
-            .product-magnifier:hover{
-                -ms-transform: scale(1.1);
-                -webkit-transform: scale(1.1);
-                transform: scale(1.1);
-            } 
-
             .brand-link{
                 color:#878787;
             }
@@ -91,6 +81,21 @@
 
             .footer-link{
                 text-decoration: none;
+                font-family: 'Oswald', sans-serif;
+                font-size: x-small;
+            }
+
+            .font{
+                font-weight: 800;
+                color: #f6f6f6;
+            }
+            
+            .other-page-links{
+                color: #878787;
+            }
+
+            .other-page-links:hover{
+                color: #ffffff;
             }
 
             @media (max-width:416px){
@@ -201,11 +206,11 @@
             </div>
         </nav>
 
-        <div class="text-center main-container">
+        <div class="text-center main-container container">
             <img src="../Assignments HTML/Responsive Websites/Assets/Jumpman_logo.svg.png" style="margin-top: 80px;" width="60px" class="img-fluid py-3" alt="">
             <h1 style="font-weight:800;">STAY WILD</h1>
 
-            <form action="" class="p-4 pb-3 pt-5 text-center">
+            <form action="" class="pb-3 pt-5 text-center">
                 <input type="email" class="p-2" placeholder="Email address" name="email" value name="emailAddress" autocomplete="email" autocapitalize="off" spellcheck="false" id="email" required style="width: 300px; border: 1px solid #ebebeb;"> <br>
                 <input type="password" class="p-2 mt-4" placeholder="Password" name="password" value name="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" id="password" required style="width: 300px; border: 1px solid #ebebeb;"> <br>
                 <div class="d-flex mt-4">
@@ -228,37 +233,37 @@
                     <a class="brand-link" href="#"><i class="bi bi-youtube"></i></a>
                 </div>
             </div>
-            <div class="container p-3 pt-4">
+            <div class="container">
 
-                <div class="d-flex">
-                    <a href="#" class="text-light footer-link">FIND A STORE</a>
-                    <a href="#" class="px-5 text-light footer-link">GET HELP</a>
-                    <a href="#" class="px-2 text-light footer-link">ABOUT SPORTY SHOES</a>
+                <div class="row mt-4">
+                    <div class="d-none d-md-block col-sm-3 col-md-2"><a href="" class="footer-link font">FIND A STORE</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font text">GET HELP</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font">ABOUT US</a></div>
                 </div>
 
-                <div class="d-flex mt-2">
-                    <a href="#" class="text-light footer-link">BECOME A MEMBER</a>
-                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
-                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                <div class="row">
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font">BECOME A MEMBER</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Order status</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">News</a></div>
                 </div>
 
-                <div class="d-flex mt-2">
-                    <a href="#" class="text-light footer-link">SIGN UP FOR EMAIL</a>
-                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
-                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                <div class="row">
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font">SIGN UP FOR EMAIL</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Delivery</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Careers</a></div>
                 </div>
 
-                <div class="d-flex mt-2">
-                    <a href="#" class="text-light footer-link">STUDENT DISCOUNT</a>
-                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
-                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                <div class="row">
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font">STUDENT DISCOUNT</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Payment options</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Susutainability</a></div>
                 </div>
 
-                <div class="d-flex mt-2">
-                    <a href="#" class="text-light footer-link">SEND US FEEDBACK</a>
-                    <a href="#" class="px-5 text-light footer-link">FIND A STORE</a>
-                    <a href="#" class="px-2 text-light footer-link">FIND A STORE</a>
+                <div class="row mb-4">
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link font">SEND US FEEDBACK</a></div>
+                    <div class="d-none d-md-block col-md-2"><a href="" class="footer-link other-page-links">Contact Us for inquiries</a></div>
                 </div>
+
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
